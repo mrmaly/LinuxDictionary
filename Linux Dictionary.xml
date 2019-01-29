@@ -1,0 +1,2567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GLOSSARY>
+    <INFO>
+        <NAME>Linux Dictionary</NAME>
+        <INTRO>The database of phrases connected with Unix-like operating systems.</INTRO>
+        <INTROFORMAT>1</INTROFORMAT>
+        <ALLOWDUPLICATEDENTRIES>0</ALLOWDUPLICATEDENTRIES>
+        <DISPLAYFORMAT>dictionary</DISPLAYFORMAT>
+        <SHOWSPECIAL>1</SHOWSPECIAL>
+        <SHOWALPHABET>1</SHOWALPHABET>
+        <SHOWALL>1</SHOWALL>
+        <ALLOWCOMMENTS>0</ALLOWCOMMENTS>
+        <USEDYNALINK>1</USEDYNALINK>
+        <DEFAULTAPPROVAL>1</DEFAULTAPPROVAL>
+        <GLOBALGLOSSARY>0</GLOBALGLOSSARY>
+        <ENTBYPAGE>10</ENTBYPAGE>
+        <ENTRIES>
+            <ENTRY>
+                <CONCEPT>UID</CONCEPT>
+                <DEFINITION>a unique number assigned by Linux to each user on the system</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GID</CONCEPT>
+                <DEFINITION>a number that associates a system user with other users sharing something in common</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>PID</CONCEPT>
+                <DEFINITION>an identification number that is automatically assigned to each process when it is created</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>tty</CONCEPT>
+                <DEFINITION>a command  to print the file name of the terminal connected to standard input</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ntp</CONCEPT>
+                <DEFINITION>a networking protocol for clock synchronization between computer systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>git</CONCEPT>
+                <DEFINITION>a version-control system created by Linus Torvalds</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>base32</CONCEPT>
+                <DEFINITION>a transfer encoding that uses the twenty-six upper-case letters A-Z, and the digits 2-7</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>POSIX</CONCEPT>
+                <DEFINITION>a family of standards specified by the IEEE Computer Society for maintaining compatibility between Unix-like operating systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>binary file</CONCEPT>
+                <DEFINITION>a file that contains at least some data that consists of sequences of bits that do not represent plain text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>character file</CONCEPT>
+                <DEFINITION>a pipe between a driver and programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>regular file</CONCEPT>
+                <DEFINITION>a file that contains ASCII text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>crack</CONCEPT>
+                <DEFINITION>to decrypt a password or to bypass a copy protection scheme</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>daemon</CONCEPT>
+                <DEFINITION>a computer program that runs as a background process</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>IRC</CONCEPT>
+                <DEFINITION>an application layer protocol that facilitates communication in the form of text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ftp</CONCEPT>
+                <DEFINITION>a standard network protocol used for the transfer of computer files between a client and server on a computer network</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>CLI</CONCEPT>
+                <DEFINITION>a computer program where the user/client issues commands to the program in the form of successive lines of text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GitHub</CONCEPT>
+                <DEFINITION>the web-based hosting service for version control using Git running on Ruby of Rails</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>global</CONCEPT>
+                <DEFINITION>from the beginning of a file to the end used to describe an operation such as a search</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>hard link</CONCEPT>
+                <DEFINITION>an additional name for an existing file in the system</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>symbolic link</CONCEPT>
+                <DEFINITION>a file that contains a reference to another file in the form of an absolute or relative path</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>home directory</CONCEPT>
+                <DEFINITION>the directory on Unix-like operating systems that serves as the repository for a user's personal files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>root directory</CONCEPT>
+                <DEFINITION>the first or top-most directory in a hierarchy</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Telnet</CONCEPT>
+                <DEFINITION>the unencrypted version of SSH</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>SSH</CONCEPT>
+                <DEFINITION>the encrypted version of Telnet</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Kerberos</CONCEPT>
+                <DEFINITION>a network authentication protocol created at MIT</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>kernel</CONCEPT>
+                <DEFINITION>part of an operating system that implements the interaction with hardware and the sharing of resources</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>KISS</CONCEPT>
+                <DEFINITION>an acronym, stands for Keep It Simple, Stupid</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>widget</CONCEPT>
+                <DEFINITION>a control element in a graphical user interface – an element of interaction, such as a button or a scroll bar</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>PS1</CONCEPT>
+                <DEFINITION>the default prompt string in Linux systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>macro</CONCEPT>
+                <DEFINITION>a shortcut that performs multiple instructions in one step</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>regular expression</CONCEPT>
+                <DEFINITION>a sequence of characters that define a search pattern</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>absolute path</CONCEPT>
+                <DEFINITION>the complete details needed to locate a file or folder</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>relative path</CONCEPT>
+                <DEFINITION>a way to specify the location of a file relative to a directory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>open source</CONCEPT>
+                <DEFINITION>a type of computer software in which source code is released with freedom to study, change or distribute it</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>owner</CONCEPT>
+                <DEFINITION>the user who has privileged access to a file; typically the user who created the file</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>padding</CONCEPT>
+                <DEFINITION>process of adding unused data to the end of a data in order to make it conform to a certain length</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>PAM</CONCEPT>
+                <DEFINITION>an authentication module that provides dynamic authentication support for applications and services in a Linux</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>parse</CONCEPT>
+                <DEFINITION>to analyse data so it can be processed by a computer program</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>password file</CONCEPT>
+                <DEFINITION>a file containing basic information about users authorised to log into a given Linux system; on modern Linux systems no longer stores user's passwords</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>plaintext</CONCEPT>
+                <DEFINITION>data that is not encrypted and therefore easily read</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Xfce4</CONCEPT>
+                <DEFINITION>a lightweight desktop environment for UNIX-like operating systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Meld</CONCEPT>
+                <DEFINITION>a visual diff and merge tool targeted at developers</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Thunar</CONCEPT>
+                <DEFINITION>a file manager for the Xfce Desktop Environment</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GVim</CONCEPT>
+                <DEFINITION>a GUI for Vim text editor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GTK</CONCEPT>
+                <DEFINITION>a multi-platform toolkit for creating graphical user interfaces</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GNOME</CONCEPT>
+                <DEFINITION>a graphical user interface created for GNU project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Unity</CONCEPT>
+                <DEFINITION>a graphical shell for the GNOME desktop environment originally developed by Canonical Ltd.</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Nemo</CONCEPT>
+                <DEFINITION>a file manager for the Cinnamon Desktop Environment</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Cinnamon</CONCEPT>
+                <DEFINITION>the principal desktop environment for Linux Mint</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Blueman</CONCEPT>
+                <DEFINITION>a full featured Bluetooth manager written in GTK+</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>KDE</CONCEPT>
+                <DEFINITION>the K Desktop Environment; one of several user interfaces for Linux, built with Qt</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Mate</CONCEPT>
+                <DEFINITION>a graphical user interface that is the continuation of GNOME 2</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>xterm</CONCEPT>
+                <DEFINITION>the most basic terminal emulator for the X Window System</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>gedit</CONCEPT>
+                <DEFINITION>the default text editor of the GNOME desktop environment and part of the GNOME Core Applications</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>KeePassX</CONCEPT>
+                <DEFINITION>a cross-platform and open-source password manager</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>LibreOffice</CONCEPT>
+                <DEFINITION>a free and open-source office suite, a project of The Document Foundation</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GIMP</CONCEPT>
+                <DEFINITION>a cross-platform image editor available for most operating systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Pinta</CONCEPT>
+                <DEFINITION>a Paint-like drawing program for Linux systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Synaptic</CONCEPT>
+                <DEFINITION>GTK+-based graphical user interface for APT</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GParted</CONCEPT>
+                <DEFINITION>a GTK+ front-end to GNU Parted and an official GNOME partition-editing application</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Conky</CONCEPT>
+                <DEFINITION>a free software desktop system monitor for the X Window System</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Transmission</CONCEPT>
+                <DEFINITION>a BitTorrent client which features a variety of user interfaces on top of a cross-platform back-end</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Wine</CONCEPT>
+                <DEFINITION>free and open-source compatibility layer that aims to allow computer programs developed for Windows to run on Linux</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Pidgin</CONCEPT>
+                <DEFINITION>a chat program which lets you log in to accounts on multiple chat networks simultaneously</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>XDM</CONCEPT>
+                <DEFINITION>the default display manager for the X Window System</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Rythmbox</CONCEPT>
+                <DEFINITION>a free and open-source audio player that plays and helps organize digital audio files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cmus</CONCEPT>
+                <DEFINITION>a small, fast and powerful console audio player which supports most major audio formats</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Atom</CONCEPT>
+                <DEFINITION>free and open-source text and source code editor developed by GitHub community</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Synapse</CONCEPT>
+                <DEFINITION>a semantic launcher written in Vala that you can use to start applications as well as find and access relevant documents and files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Darktable</CONCEPT>
+                <DEFINITION>a free and open-source photography workflow application and raw developer aimed at non-destructive raw photo post production</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Calibre</CONCEPT>
+                <DEFINITION>a free to use e-book manager for most platforms</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Gcalculator</CONCEPT>
+                <DEFINITION>an open source scientific calculator with a GUI and part of the GNOME Core Applications</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Konqueror</CONCEPT>
+                <DEFINITION>a free and open-source web browser and file manager; developed for KDE project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Nautilus</CONCEPT>
+                <DEFINITION>the default file manager for GNOME</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Dolphin</CONCEPT>
+                <DEFINITION>the default file manager for KDE Plasma 5</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Krusader</CONCEPT>
+                <DEFINITION>an advanced twin panel (commander style) file manager for KDE Plasma</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Caja</CONCEPT>
+                <DEFINITION>the default file manager for Mate desktop environment</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>OpenGL</CONCEPT>
+                <DEFINITION>a cross-language, cross-platform API for rendering 2D and 3D vector graphics</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>gman</CONCEPT>
+                <DEFINITION>a GTK+ based front-end for man</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Kate</CONCEPT>
+                <DEFINITION>a text editor developed by the KDE free software community</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Qt</CONCEPT>
+                <DEFINITION>a cross-platform application framework and widget toolkit for creating classic and embedded GUIs, and applications</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>KFind</CONCEPT>
+                <DEFINITION>a KDE based file finder</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Wireshark</CONCEPT>
+                <DEFINITION>a free and open-source packet analyser used for network troubleshooting, analysis, software and communications protocol development</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Qt Creator</CONCEPT>
+                <DEFINITION>a cross-platform C++, JavaScript and QML integrated development environment which is part of the SDK for the Qt GUI application development framework</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>awk</CONCEPT>
+                <DEFINITION>a pattern scanning and text processing language</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cp</CONCEPT>
+                <DEFINITION>a program for copying files and directories</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mv</CONCEPT>
+                <DEFINITION>a program for moving and renaming files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>scp</CONCEPT>
+                <DEFINITION>a program for remotely copying files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ls</CONCEPT>
+                <DEFINITION>a program for listing directory contents</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ps</CONCEPT>
+                <DEFINITION>a program for reporting a snapshot of the current processes</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>grep</CONCEPT>
+                <DEFINITION>a program for printing lines matching a pattern</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>who</CONCEPT>
+                <DEFINITION>a program for showing who is logged on</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>which</CONCEPT>
+                <DEFINITION>a program for locating a command</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mkdir</CONCEPT>
+                <DEFINITION>a program for making directories</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>touch</CONCEPT>
+                <DEFINITION>a program for changing file timestamps</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>rm</CONCEPT>
+                <DEFINITION>a program for removing files or directories</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>rmdir</CONCEPT>
+                <DEFINITION>a program for removing empty directories</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>man</CONCEPT>
+                <DEFINITION>an interface to the on-line reference manuals</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cmp</CONCEPT>
+                <DEFINITION>a program for comparing two files byte by byte</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>xxd</CONCEPT>
+                <DEFINITION>a program for making a hexdump</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>host</CONCEPT>
+                <DEFINITION>a DNS lookup utility</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>wget</CONCEPT>
+                <DEFINITION>the non-interactive network downloader</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>curl</CONCEPT>
+                <DEFINITION>a program for transferring a URL</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>whereis</CONCEPT>
+                <DEFINITION>a program for locating a binary or a source</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>whatis</CONCEPT>
+                <DEFINITION>a program for displaying one-line manual page descriptions</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>file</CONCEPT>
+                <DEFINITION>a program for determining a file type</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>vim</CONCEPT>
+                <DEFINITION>a command line programmer's text editor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>emacs</CONCEPT>
+                <DEFINITION>a GNU project text editor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>uniq</CONCEPT>
+                <DEFINITION>a program for omitting repeated lines</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>sed</CONCEPT>
+                <DEFINITION>a stream editor for filtering and transforming text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>sort</CONCEPT>
+                <DEFINITION>a program for arranging lines of text files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>tail</CONCEPT>
+                <DEFINITION>a program for outputting the last part of files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>head</CONCEPT>
+                <DEFINITION>a program for outputting the first part of files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>time</CONCEPT>
+                <DEFINITION>a program for running programs and summarising system resource usage</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>tee</CONCEPT>
+                <DEFINITION>a program for reading from standard input and writing to standard output and files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>sudo</CONCEPT>
+                <DEFINITION>a program for executing a command as another user</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>strings</CONCEPT>
+                <DEFINITION>a program for printing the strings of printable characters in files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>su</CONCEPT>
+                <DEFINITION>a program for changing UID</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>strip</CONCEPT>
+                <DEFINITION>a program for discarding symbols from object files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>strace</CONCEPT>
+                <DEFINITION>a program for tracing system calls and signals</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>stat</CONCEPT>
+                <DEFINITION>a program for displaying file or file system status</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>samba</CONCEPT>
+                <DEFINITION>a Windows SMB/CIFS fileserver for UNIX </DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>nano</CONCEPT>
+                <DEFINITION>a command line text editor; a free Pico clone</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cat</CONCEPT>
+                <DEFINITION>a program for concatenating files and printing on the standard output</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>kill</CONCEPT>
+                <DEFINITION>a program for sending a signal to a process</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ping</CONCEPT>
+                <DEFINITION>a program for sending ICMP ECHO_REQUEST to network hosts</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>traceroute</CONCEPT>
+                <DEFINITION>a program for printing the route packets trace to network hosts</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>pgrep</CONCEPT>
+                <DEFINITION>a program for printing processes matching a given pattern</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>passwd</CONCEPT>
+                <DEFINITION>a program for changing user password</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>chmod</CONCEPT>
+                <DEFINITION>a program for changing file mode bits</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>chown</CONCEPT>
+                <DEFINITION>a program for changing file owner </DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>chgrp</CONCEPT>
+                <DEFINITION>a program for changing file group</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ntpd</CONCEPT>
+                <DEFINITION>an NTP daemon program</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>npm</CONCEPT>
+                <DEFINITION>a NodeJS package manager</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>nmap</CONCEPT>
+                <DEFINITION>a network exploration tool and port scanner</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>aircrack-ng</CONCEPT>
+                <DEFINITION>an 802.11 WEP / WPA-PSK key cracker</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>nginx</CONCEPT>
+                <DEFINITION>an HTTP server, reverse proxy server, load balancer and mail proxy server</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>apache</CONCEPT>
+                <DEFINITION>an HTTP server maitained by an open community of developers</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>less</CONCEPT>
+                <DEFINITION>a program for listing file content (similar to more)</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>more</CONCEPT>
+                <DEFINITION>a program for listing file content (similar to less)</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>most</CONCEPT>
+                <DEFINITION>a program for browsing or paging through a text file</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mono</CONCEPT>
+                <DEFINITION>an ECMA-CLI native code generator</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mktemp</CONCEPT>
+                <DEFINITION>a program for creating a temporary file or directory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GNU Midnight Commander</CONCEPT>
+                <DEFINITION>a visual shell for Unix-like systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>make</CONCEPT>
+                <DEFINITION>a GNU make utility to maintain groups of programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cmake</CONCEPT>
+                <DEFINITION>a cross-platform make utility to maintain groups of programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>lsusb</CONCEPT>
+                <DEFINITION>a program for listing USB devices</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>lsblk</CONCEPT>
+                <DEFINITION>a program for listing block devices</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>lsattr</CONCEPT>
+                <DEFINITION>a program for listing a file attributes on the Linux second extended file system (ext2)</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>chattr</CONCEPT>
+                <DEFINITION>a program for changing a file attributes on a Linux file system</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ln</CONCEPT>
+                <DEFINITION>a program for making links between files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ldd</CONCEPT>
+                <DEFINITION>a program for printing shared object dependencies</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ifconfig</CONCEPT>
+                <DEFINITION>a program for configuring a network interface</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>iwconfig</CONCEPT>
+                <DEFINITION>a program for configuring a wireless network interface</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>iptables</CONCEPT>
+                <DEFINITION>an administration tool for IPv4/IPv6 packet filtering and NAT</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ip</CONCEPT>
+                <DEFINITION>a program for showing / manipulating routing, network devices, interfaces and tunnels</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>id</CONCEPT>
+                <DEFINITION>a program for printing real name and effective user and GIDs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>whoami</CONCEPT>
+                <DEFINITION>a program for printing effective UID</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>htop</CONCEPT>
+                <DEFINITION>an interactive process viewer</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>top</CONCEPT>
+                <DEFINITION>a program for displaying Linux processes </DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>hostname</CONCEPT>
+                <DEFINITION>a program for showing / setting the system's host name</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>groups</CONCEPT>
+                <DEFINITION>a program for printing the groups a user is in</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>gdb</CONCEPT>
+                <DEFINITION>the GNU debugger</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mount</CONCEPT>
+                <DEFINITION>a program for mounting a filesystem</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>umount</CONCEPT>
+                <DEFINITION>a program for unmouting a filesystem</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>date</CONCEPT>
+                <DEFINITION>a program for printing or setting the system time</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>find</CONCEPT>
+                <DEFINITION>a program for searching for files in a directory hierarchy</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>fdisk</CONCEPT>
+                <DEFINITION>a program for manipulating disk partition table</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>true </CONCEPT>
+                <DEFINITION>a program doing nothing, successfully</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>false</CONCEPT>
+                <DEFINITION>a program doing nothing, unsuccessfully</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>attr</CONCEPT>
+                <DEFINITION>a program for extending attributes on XFS filesystem objects</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>bash</CONCEPT>
+                <DEFINITION>the GNU Bourne-Again Shell</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cfdisk</CONCEPT>
+                <DEFINITION>a program for displaying or manipulating a disk’s partition table</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>chroot</CONCEPT>
+                <DEFINITION>a program for changing root directory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>clang</CONCEPT>
+                <DEFINITION>the LLVM C, C++ and Objective-C compiler</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>clear</CONCEPT>
+                <DEFINITION>a program for clearing the terminal screen</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>dd</CONCEPT>
+                <DEFINITION>a program for copying file blocks</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>df</CONCEPT>
+                <DEFINITION>a program for reporting file system disk space usage</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>dpkg</CONCEPT>
+                <DEFINITION>the package manager for Debian</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>pacman</CONCEPT>
+                <DEFINITION>the package manager for ArchLinux</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>apt</CONCEPT>
+                <DEFINITION>the package manager for Ubuntu</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>gpg</CONCEPT>
+                <DEFINITION>the OpenPGP encryption and signing tool</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>eject</CONCEPT>
+                <DEFINITION>a program for ejecting removable media</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>zsh</CONCEPT>
+                <DEFINITION>the Z shell</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>wc</CONCEPT>
+                <DEFINITION>a program for printing newline, word and byte counts for each file</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>alias</CONCEPT>
+                <DEFINITION>a program for creating command aliases</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>seq</CONCEPT>
+                <DEFINITION>a program for printing a sequence of numbers</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cowsay</CONCEPT>
+                <DEFINITION>a configurable talking cow program; turns text into ASCII cows, with speech balloons</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cppunit</CONCEPT>
+                <DEFINITION>a unit testing library for C++</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cups</CONCEPT>
+                <DEFINITION>a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>dig</CONCEPT>
+                <DEFINITION>a DNS lookup utility</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>echo</CONCEPT>
+                <DEFINITION>a program for displaying a line of text</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>dmesg</CONCEPT>
+                <DEFINITION>a program for printing or controlling the kernel ring buffer</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>tar</CONCEPT>
+                <DEFINITION>an archiving utility created for the GNU project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>readelf</CONCEPT>
+                <DEFINITION>a program for displaying information about ELF files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>set</CONCEPT>
+                <DEFINITION>a program for printing all environment variables</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>export</CONCEPT>
+                <DEFINITION>a command for making a local variable global</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>unset</CONCEPT>
+                <DEFINITION>a program for unsetting an\environment variable</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ldconfig</CONCEPT>
+                <DEFINITION>a program for configuring dynamic linker run-time bindings</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>hostid</CONCEPT>
+                <DEFINITION>a program for printing the numeric identifier for the current host</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>uname</CONCEPT>
+                <DEFINITION>a program for printing system information</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mail</CONCEPT>
+                <DEFINITION>a program for sending and receiving e-mails</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>fg</CONCEPT>
+                <DEFINITION>a program for switching a process from background to foreground</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>bg</CONCEPT>
+                <DEFINITION>a program for listing all background processes</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>rpm</CONCEPT>
+                <DEFINITION>a package management system created for RedHat operating system</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>yum</CONCEPT>
+                <DEFINITION>a command-line package-management utility for computers running the Linux using the RPM</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>service</CONCEPT>
+                <DEFINITION>an application (or set of applications) running in the background waiting to be used, or carrying out essential tasks</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>irssi</CONCEPT>
+                <DEFINITION>a command-line IRC client program for Linux, FreeBSD, macOS and Windows</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>valgrind</CONCEPT>
+                <DEFINITION>a programming tool for memory debugging, memory leak detection, and profiling created for the GNU project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>locale</CONCEPT>
+                <DEFINITION>a program for getting locale-specific information</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>locale-gen</CONCEPT>
+                <DEFINITION>a program for generating localization files from templates</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>logger</CONCEPT>
+                <DEFINITION>a program for entering messages into the system log</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>lsmod</CONCEPT>
+                <DEFINITION>a program for showing the status of modules in the Linux kernel</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>lspci</CONCEPT>
+                <DEFINITION>a program for listing all PCI devices</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ltrace</CONCEPT>
+                <DEFINITION>a library call tracer</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>dir</CONCEPT>
+                <DEFINITION>a DOS program for listing directory contents</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mailx</CONCEPT>
+                <DEFINITION>a Unix utility program for sending and receiving mail, also known as a Mail User Agent program</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mkfifo</CONCEPT>
+                <DEFINITION>a program for making named pipes</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mkfs</CONCEPT>
+                <DEFINITION>a program for building a Linux filesystem</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mkswap</CONCEPT>
+                <DEFINITION>a program for setting up a Linux swap area</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>objcopy</CONCEPT>
+                <DEFINITION>a program for copying and translating object files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>objdump</CONCEPT>
+                <DEFINITION>a program for disassembling or displaying information from object files</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>od</CONCEPT>
+                <DEFINITION>a program for displaying data in various human-readable output formats</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>openssl</CONCEPT>
+                <DEFINITION>a software library for applications that secure communications over computer networks </DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>parted</CONCEPT>
+                <DEFINITION>the GNU partition editor, used for creating and deleting partitions</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>pipe</CONCEPT>
+                <DEFINITION>a symbol that tells the shell to send the output of a command to another rather than display this output</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>tilde</CONCEPT>
+                <DEFINITION>a symbol that is interpreted as an absolute path of the user’s home directory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>shutdown</CONCEPT>
+                <DEFINITION>a utility for bringing the system down in a secure way</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>poweroff</CONCEPT>
+                <DEFINITION>a utlity for sending an ACPI signal which instructs the system to power down</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>nasm</CONCEPT>
+                <DEFINITION>an assembler and disassembler for the Intel x86 architecture used to write 16-bit, 32-bit and 64-bit programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>as</CONCEPT>
+                <DEFINITION>the portable GNU assembler</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ld</CONCEPT>
+                <DEFINITION>the GNU linker</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>gcc</CONCEPT>
+                <DEFINITION>the GNU C and C++ compiler</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>malloc</CONCEPT>
+                <DEFINITION>a function for allocating dynamic memory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mmap</CONCEPT>
+                <DEFINITION>a function for creating a new mapping in the virtual address space of the calling process</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>fork</CONCEPT>
+                <DEFINITION>a function for creating a new process by duplicating the calling process</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>fcntl</CONCEPT>
+                <DEFINITION>a function for performing an operation of the open file descriptor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>open</CONCEPT>
+                <DEFINITION>a system call for creating / opening the specified file</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>close</CONCEPT>
+                <DEFINITION>a system call for closing a file descriptor, so that it no longer refers to any file and may be reused</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>read</CONCEPT>
+                <DEFINITION>a system call for reading up to given amount of bytes from the specified file descriptor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>write</CONCEPT>
+                <DEFINITION>a system call for writing data to the file referred to by the file descriptor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>exit</CONCEPT>
+                <DEFINITION>a function for causing normal process termination</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>syscall</CONCEPT>
+                <DEFINITION>a function for invoking the system call whose assembly language interface has the specified number</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>socket</CONCEPT>
+                <DEFINITION>a function for creating an endpoint for communication returning a file descriptor that refers to that endpoint</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>file descriptor</CONCEPT>
+                <DEFINITION>an abstract indicator (handle) used to access a file or other input / output resource, such as a pipe or network socket</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>child process</CONCEPT>
+                <DEFINITION>a process created by another process</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>compile</CONCEPT>
+                <DEFINITION>to translate a high level code into machine-code</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>compiler</CONCEPT>
+                <DEFINITION>a program that converts instructions into machine-code form so that they can be read and executed</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>assembly</CONCEPT>
+                <DEFINITION>a low-level programming language</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>assembler</CONCEPT>
+                <DEFINITION>a program that converts assembly code into machine-code</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>libc</CONCEPT>
+                <DEFINITION>a shorthand for the "standard C library"; a library of standard functions that can be used by all C programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>core dump</CONCEPT>
+                <DEFINITION>a dump of the contents of main memory, carried out typically as an aid to debugging</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>breakpoint</CONCEPT>
+                <DEFINITION>an intentional stopping or pausing place in a program, put in place for debugging purposes</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ELF</CONCEPT>
+                <DEFINITION>a common standard file format for executable files, object code, shared libraries, and core dumps in Linux</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>zombie process</CONCEPT>
+                <DEFINITION>a process that has completed execution but still has an entry in the process table</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>magic number</CONCEPT>
+                <DEFINITION>an non-obvious constant whose value is significant to the operation of a program and that is hardcoded</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>preprocessor</CONCEPT>
+                <DEFINITION>a program that processes its input data to produce output that is used as input to another program</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>free</CONCEPT>
+                <DEFINITION>a function for freeing the memory space pointed to by the given pointer</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>JIT compiler</CONCEPT>
+                <DEFINITION>a compiler that allows programs to be automatically compiled on the fly</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mutex</CONCEPT>
+                <DEFINITION>a synchronisation mechanism for enforcing limits on access to a resource in an environment where there are many threads</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>null</CONCEPT>
+                <DEFINITION>a pointer pointing to the zero address</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>BIOS</CONCEPT>
+                <DEFINITION>non-volatile firmware used to perform hardware initialisation during the booting process, and to provide runtime services for operating systems and programs</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GRUB</CONCEPT>
+                <DEFINITION>the boot loader package from the GNU Project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>UEFI</CONCEPT>
+                <DEFINITION>a specification that defines a software interface between an operating system and platform firmware</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>init</CONCEPT>
+                <DEFINITION>the first process started during booting of the computer system</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ext4</CONCEPT>
+                <DEFINITION>a journaling file system for Linux, developed as the successor to ext3</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>swap space</CONCEPT>
+                <DEFINITION>a portion of a hard disk drive that is used for simulating main memory</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>word</CONCEPT>
+                <DEFINITION>a fixed-sized piece of data handled as a unit by the instruction set or the hardware of the processor</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>cron</CONCEPT>
+                <DEFINITION>a time-based job scheduler in Unix-like computer operating systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>X</CONCEPT>
+                <DEFINITION>a windowing system for bitmap displays, common on Unix-like operating systems</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Wayland</CONCEPT>
+                <DEFINITION>a computer protocol that specifies the communication between a display server and its clients</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>device file</CONCEPT>
+                <DEFINITION>an interface to a device driver that appears in a file system as if it were an ordinary file</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>ALSA</CONCEPT>
+                <DEFINITION>a software framework and part of the Linux kernel that provides an application programming interface for sound card device drivers</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>x86</CONCEPT>
+                <DEFINITION>a family of instruction set architectures based on the Intel 8086 microprocessor and its 8088 variant</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>x86_64</CONCEPT>
+                <DEFINITION>the 64-bit version of the x86 instruction set</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>GNU Hurd</CONCEPT>
+                <DEFINITION>the multiserver microkernel written as part of the GNU project</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Linux</CONCEPT>
+                <DEFINITION>a free and open-source monolithic Unix-like computer operating system kernel</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>Syslinux</CONCEPT>
+                <DEFINITION>a suite of lightweight master boot record boot loaders for starting up IBM PC compatible computers with the Linux kernel</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>boot loader</CONCEPT>
+                <DEFINITION>a program that loads an operating system when a computer is turned on</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>systemd</CONCEPT>
+                <DEFINITION>an init system used to bootstrap the user space and to manage system processes after booting</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>mount point</CONCEPT>
+                <DEFINITION>the directory under which a file system is accessible after being mounted</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>parity bit</CONCEPT>
+                <DEFINITION>in asynchronous communications and primary storage, an extra bit added to a data byte for parity checking</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+            <ENTRY>
+                <CONCEPT>parity checking</CONCEPT>
+                <DEFINITION>the most basic technique used to detect memory or data communication errors</DEFINITION>
+                <FORMAT>0</FORMAT>
+                <USEDYNALINK>0</USEDYNALINK>
+                <CASESENSITIVE>0</CASESENSITIVE>
+                <FULLMATCH>0</FULLMATCH>
+                <TEACHERENTRY>1</TEACHERENTRY>
+            </ENTRY>
+        </ENTIES>
+    </INFO>
+</GLOSSARY>
