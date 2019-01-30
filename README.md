@@ -10,7 +10,7 @@ The sources of The Linux Dictionary course avaiable on:
 ## Generating the TSV and XML versions
 
 Script `generate.py` generates the TSV and XML files from the given XLSX file.
-If no `-o` option has been passed the files are generated in the CWD.
+If no `-o` option has been passed the files will be generated in the CWD.
 The line ending sequence is OS-dependent. If the encoding of the XLSX file is
 not UTF-8 the behaviour is undefined.
 
