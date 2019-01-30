@@ -4,6 +4,8 @@ The sources of The Linux Dictionary course avaiable on:
  * [Memrise.com](https://www.memrise.com/course/2175263/linux-dictionary/)
  * [Supermemo.com](https://www.supermemo.com/en/course/linux_dictionary)
  * [AnkiWeb.net](https://ankiweb.net/shared/info/928166313)
+ * [Moodle](http://elf2.pk.edu.pl/mod/glossary/view.php?id=68717) (avaiable only
+ for the students of The Cracow University of Technology)
 
 ## Generating the TSV and XML versions
 
