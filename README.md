@@ -16,7 +16,7 @@ not UTF-8 the behaviour is undefined.
 
 The script requires the `xlrd` python3 module. To install it simply run:
 ```bash
-  # pip3 install xlrd         # with admin/root privileges
+  $ pip3 install xlrd         # with admin/root privileges
   $ pip3 install --user xlrd  # without admin/root privileges
 ```
 
