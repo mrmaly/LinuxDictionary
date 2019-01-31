@@ -14,6 +14,18 @@ If no `-o` option has been passed the files will be generated in the CWD.
 The line ending sequence is OS-dependent. If the encoding of the XLSX file is
 not UTF-8 the behaviour is undefined.
 
+### Expected spreadsheet schema
+
+ * Only the first sheet in the given file will be parsed and coverted.
+ * Each row contains the phrase, definition and aliases in the following format:
+
+   |   PHRASE   |   DEFINITON   |   [alias1]   |   [alias2]   |   [...]   |
+   | ---------- | ------------- | ------------ | ------------ | --------- |
+   | **PHRASE** | **DEFINITON** | **[alias1]** | **[alias2]** | **[...]** |
+
+ * The sheet can containt empty rows between non-empty rows. A row will be
+   omitted if it has the first cell empty.
+
 ### Usage
 
 The script requires the `xlrd` python3 module. To install it simply run:
