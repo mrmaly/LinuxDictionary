@@ -33,6 +33,14 @@ class Generator(object):
   def __init__(self, path, output):
     self.path = path
     self.output = output
+    if not os.path.isdir(self.output):
+      if os.path.exists(self.output):
+        print("The given output path exists, but is not a directory.",
+            file=sys.stderr)
+        print("Setting CWD as the output directory.")
+        self.output = "."
+      else:
+        os.makedirs(self.output)
     self.filename = os.path.splitext(os.path.basename(self.path))[0]
     self.indent_level = 0
 
