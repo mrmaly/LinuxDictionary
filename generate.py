@@ -71,9 +71,6 @@ class Generator(object):
   def generate_tsv(self):
     tsv_file = os.path.join(self.output, self.filename) + ".tsv"
     print(f"Generating the '{tsv_file}' TSV file.")
-    with open(tsv_file, "wb") as f:
-      for row in self.rows:
-        f.write(str.encode("\t".join(row) + os.linesep))
 
     print(f"File '{tsv_file}' has been generated.")
 
@@ -113,6 +110,13 @@ class Generator(object):
         f.write(self.format('<CASESENSITIVE>0</CASESENSITIVE>'))
         f.write(self.format('<FULLMATCH>0</FULLMATCH>'))
         f.write(self.format('<TEACHERENTRY>1</TEACHERENTRY>'))
+        if len(row) > 2:
+          f.write(self.format('<ALIASES>'))
+          for alias in row[2:]:
+            f.write(self.format('<ALIAS>', '>'))
+            f.write(self.format(f'<NAME>{alias}</NAME>', '>'))
+            f.write(self.format('</ALIAS>', '<'))
+          f.write(self.format('</ALIASES>', '<'))
         f.write(self.format('</ENTRY>', '<'))
 
       f.write(self.format('</ENTRIES>', '<'))
