@@ -70,6 +70,8 @@ class Generator(object):
     self.rows = []
     for row in sheet.get_rows():  # returns a generator
       tmp = [cell.value for cell in row]
+      if tmp[0] == '':  # if there's not phrase
+        continue
       self.rows.append(list(filter(None, tmp)))  # removes empty cells
 
     self.generate_tsv()
