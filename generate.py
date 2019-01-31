@@ -22,8 +22,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 
 import argparse
+import hashlib
 import os
+import signal
 import sys
+import time
 import xlrd
 
 class Generator(object):
@@ -32,6 +35,24 @@ class Generator(object):
     self.output = output
     self.filename = os.path.splitext(os.path.basename(self.path))[0]
     self.indent_level = 0
+
+  def get_hash(self):
+    hash_utl = hashlib.md5()
+    with open(self.path, "rb") as f:
+      for chunk in iter(lambda: f.read(4096), b""):
+        hash_utl.update(chunk)
+    return hash_utl.hexdigest()
+
+  def watch(self):
+    self.file_hash = self.get_hash()
+    print("Watching for file changes...")
+    while True:
+      time.sleep(.5)
+      new_hash = self.get_hash()
+      if self.file_hash != new_hash:
+        print("The file has been changed.")
+        self.file_hash = new_hash
+        self.read_and_generate()
 
 
   def read_and_generate(self):
@@ -118,16 +139,27 @@ class Generator(object):
     return "\t" * self.indent_level
 
 
+def reciveSignal(signalNumber, frame):
+  sys.exit("\n\nInterupted. Exiting gracefully.")
 
 def main():
+  signal.signal(signal.SIGTERM, reciveSignal)
+  signal.signal(signal.SIGINT, reciveSignal)
+  signal.signal(signal.SIGQUIT, reciveSignal)
+
   parser = argparse.ArgumentParser()
   parser.add_argument("path", help="path to a XLSX file")
   parser.add_argument("-o", "--output-dir",
       help="output directory path (default: CWD)", default=".")
+  parser.add_argument("-w", "--watch", help="watch for file changes",
+      action="store_true")
   args = parser.parse_args()
 
   g = Generator(args.path, args.output_dir)
-  g.read_and_generate()
+  if args.watch:
+    g.watch()
+  else:
+    g.read_and_generate()
 
 
 if __name__ == "__main__":
