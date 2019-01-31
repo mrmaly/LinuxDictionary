@@ -53,11 +53,11 @@ class Generator(object):
     return hash_utl.hexdigest()
 
 
-  def watch(self):
+  def watch(self, interval):
     self.file_hash = self.get_hash()
     print("Watching for file changes...")
     while True:
-      time.sleep(.5)
+      time.sleep(inverval)
       new_hash = self.get_hash()
       if self.file_hash != new_hash:
         print("The file has been changed.")
@@ -183,16 +183,16 @@ def main():
   signal.signal(signal.SIGQUIT, reciveSignal)
 
   parser = argparse.ArgumentParser()
-  parser.add_argument("path", help="path to a XLSX file")
+  parser.add_argument("path", metavar="PATH", help="path to a XLSX file")
   parser.add_argument("-o", "--output-dir",
       help="output directory path (default: CWD)", default=".")
-  parser.add_argument("-w", "--watch", help="watch for file changes",
-      action="store_true")
+  parser.add_argument("-w", "--watch", type=float, default=-1.0, nargs="?",
+      metavar="INTERVAL", help="watch for file changes (default interval: .5s)")
   args = parser.parse_args()
 
   g = Generator(args.path, args.output_dir)
-  if args.watch:
-    g.watch()
+  if args.watch != -1.0:
+    g.watch(0.5 if args.watch == None else args.watch)
   else:
     g.read_and_generate()
 

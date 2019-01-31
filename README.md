@@ -43,9 +43,18 @@ To generate the TSV and XML files run:
   $ python3 generate.py [-o output_dir] path_to_excel_file.xlsx
 ```
 
+#### The watch mode
+
 You can add `-w` flag to activate the watch mode. The script will generate files
-automatically every time when the XLSX file has been changed.
+automatically every time when the XLSX file has been changed. The file is
+checked for changes every 0.5 second.
 ```bash
   $ python3 generate.py -w [-o output_dir] path_to_excel_file.xlsx
+```
+
+To change the interval between checks add a new value (in seconds) after the
+`-w` flag (now it's a option though).
+```bash
+  $ python3 generate.py -w 1.337 [-o output_dir] path_to_excel_file.xlsx
 ```
 
