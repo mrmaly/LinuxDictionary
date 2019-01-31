@@ -26,6 +26,8 @@ not UTF-8 the behaviour is undefined.
 
  * The sheet can containt empty rows between non-empty rows. A row will be
    omitted if it has the first cell empty.
+ * The script will print warning for each phrase that occurs more than once as
+   well as all definitions associated with that phrase.
 
 ### Usage
 

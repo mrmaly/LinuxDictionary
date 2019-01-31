@@ -44,12 +44,14 @@ class Generator(object):
     self.filename = os.path.splitext(os.path.basename(self.path))[0]
     self.indent_level = 0
 
+
   def get_hash(self):
     hash_utl = hashlib.md5()
     with open(self.path, "rb") as f:
       for chunk in iter(lambda: f.read(4096), b""):
         hash_utl.update(chunk)
     return hash_utl.hexdigest()
+
 
   def watch(self):
     self.file_hash = self.get_hash()
@@ -63,6 +65,22 @@ class Generator(object):
         self.read_and_generate()
 
 
+  def find_multiple_defs(self):
+    key_to_defs = dict()
+    for idx, row in enumerate(self.rows):
+      if row[0] in key_to_defs.keys():
+        key_to_defs[row[0]].append(idx)
+      else:
+        key_to_defs[row[0]] = [idx]
+
+    for key, defs_idxs in key_to_defs.items():
+      if len(defs_idxs) > 1:
+        print(f"\nWARNING: Multiple definitions of '{key}':", file=sys.stderr)
+        for idx in defs_idxs:
+          print(f"\t- {self.rows[idx][1]}", file=sys.stderr)
+        print("\n")
+
+
   def read_and_generate(self):
     data_xls = xlrd.open_workbook(self.path)
     print(f"Reading the first sheet from '{self.path}' file.")
@@ -74,6 +92,7 @@ class Generator(object):
         continue
       self.rows.append(list(filter(None, tmp)))  # removes empty cells
 
+    self.find_multiple_defs()
     self.generate_tsv()
     self.generate_xml()
 
@@ -81,7 +100,9 @@ class Generator(object):
   def generate_tsv(self):
     tsv_file = os.path.join(self.output, self.filename) + ".tsv"
     print(f"Generating the '{tsv_file}' TSV file.")
-
+    with open(tsv_file, "wb") as f:
+      for row in self.rows:
+        f.write(str.encode("\t".join(row) + os.linesep))
     print(f"File '{tsv_file}' has been generated.")
 
 
