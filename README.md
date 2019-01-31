@@ -58,3 +58,19 @@ To change the interval between checks add a new value (in seconds) after the
   $ python3 generate.py -w 1.337 [-o output_dir] path_to_excel_file.xlsx
 ```
 
+### The metadata file
+
+You can specify the metadata JSON file from which the script will read metadata
+via `-m` option. If no metadata file has been given, the meta tags in the XML
+file will be filled with placeholders.
+```bash
+  $ python3 generate.py -m ./metadata.json [-o output_dir] path_to_excel_file.xlsx
+```
+
+The JSON file has to have the following format:
+```json
+"database_metadata": {
+  "name": "<project_name>",
+  "short_description": "<description>"
+}
+```

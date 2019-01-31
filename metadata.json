@@ -1,0 +1,9 @@
+"database_metadata": {
+
+  "name": "Linux Dictionary",
+  "tags": ["Linux", "Unix", "POSIX", "GNU", "Ubuntu"],
+  "short_description": "The database of phrases connected with Unix-like operating systems.",
+  "description": "This database has been created for students of Computer Science. No knowledge is required, but some basics about 'how a computer works'. To present the level of required knowledge: if you hear the word 'threads' and you think about either a cat that has some fun or a needle, then this course is probably not for you."
+
+}
+

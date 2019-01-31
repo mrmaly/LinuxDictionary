@@ -23,6 +23,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 import argparse
 import hashlib
+import json
 import os
 import signal
 import sys
@@ -30,19 +31,26 @@ import time
 import xlrd
 
 class Generator(object):
-  def __init__(self, path, output):
+  def __init__(self, path, output, metadata_path):
     self.path = path
     self.output = output
-    if not os.path.isdir(self.output):
-      if os.path.exists(self.output):
-        print("The given output path exists, but is not a directory.",
-            file=sys.stderr)
-        print("Setting CWD as the output directory.")
-        self.output = "."
-      else:
-        os.makedirs(self.output)
     self.filename = os.path.splitext(os.path.basename(self.path))[0]
     self.indent_level = 0
+    self.metadata_path = metadata_path
+
+    self.load_metadata()
+
+
+  def load_metadata(self):
+    if self.metadata_path is None:
+      self.meta_name = "PROJECT_NAME"
+      self.meta_detail = "PROJECT_DETAIL"
+    else:
+      with open(self.metadata_path, "rb") as f:
+        data = json.load(f)
+      self.meta_name = data["database_metadata"]["name"]
+      self.meta_detail = data["database_metadata"]["short_description"]
+
 
 
   def get_hash(self):
@@ -114,8 +122,8 @@ class Generator(object):
       f.write(self.format('<?xml version="1.0" encoding="UTF-8"?>'))
       f.write(self.format('<GLOSSARY>'))
       f.write(self.format('<INFO>', '>'))
-      f.write(self.format('<NAME>PROJECT_NAME</NAME>', '>'))
-      f.write(self.format('<INTRO>PROJECT DESCRIPTION</INTRO>'))
+      f.write(self.format(f'<NAME>{self.meta_name}</NAME>', '>'))
+      f.write(self.format(f'<INTRO>{self.meta_detail}</INTRO>'))
       f.write(self.format('<INTROFORMAT>1</INTROFORMAT>'))
       f.write(self.format('<ALLOWDUPLICATEDENTRIES>0</ALLOWDUPLICATEDENTRIES>'))
       f.write(self.format('<DISPLAYFORMAT>dictionary</DISPLAYFORMAT>'))
@@ -156,9 +164,11 @@ class Generator(object):
       f.write(self.format('</GLOSSARY>', '<'))
 
     print(f"File '{xml_file}' has been generated.")
-    print("\n===================================")
-    print("Don't forget to change the metadata in the generated xml file!")
-    print("===================================\n")
+
+    if self.metadata_path is None:
+      print("\n===================================")
+      print("Don't forget to change the metadata in the generated xml file!")
+      print("===================================\n")
 
 
   def format(self, line, indent_direction = "="):
@@ -189,9 +199,20 @@ def main():
       help="output directory path (default: CWD)", default=".")
   parser.add_argument("-w", "--watch", type=float, default=-1.0, nargs="?",
       metavar="INTERVAL", help="watch for file changes (default interval: .5s)")
+  parser.add_argument("-m", "--metadata", type=str, metavar="META_FILE_PATH",
+      help="metadata JSON file path")
   args = parser.parse_args()
 
-  g = Generator(args.path, args.output_dir)
+  if not os.path.isdir(args.output_dir):
+    if os.path.exists(args.output_dir):
+      print("The given output path exists, but is not a directory.",
+          file=sys.stderr)
+      print("Setting CWD as the output directory.")
+      args.output_dir = "."
+    else:
+      os.makedirs(args.output_dir)
+
+  g = Generator(args.path, args.output_dir, args.metadata)
   if args.watch != -1.0:
     g.watch(0.5 if args.watch == None else args.watch)
   else:
