@@ -22,6 +22,7 @@ not UTF-8 the behaviour is undefined.
    |   PHRASE   |   DEFINITON   |   [alias1]   |   [alias2]   |   [...]   |
    | ---------- | ------------- | ------------ | ------------ | --------- |
    | **PHRASE** | **DEFINITON** | **[alias1]** | **[alias2]** | **[...]** |
+   | **[...]**  |   **[...]**   |   **[...]**  |   **[...]**  | **[...]** |
 
  * The sheet can containt empty rows between non-empty rows. A row will be
    omitted if it has the first cell empty.
