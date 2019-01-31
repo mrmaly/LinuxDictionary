@@ -17,7 +17,7 @@ The line ending sequence in the generated files is OS-dependent.
 
  * Only the first sheet in the given file will be parsed and coverted.
  * The file has to be UTF-8 encoded. If it's not the behaviour is undefined.
- * Each non-empty row has to contain the phrase, definition and aliases in the
+ * Each non-empty row has to contain a phrase, definition and aliases in the
    following format:
 
    |   PHRASE   |   DEFINITON   |   [alias1]   |   [alias2]   |   [...]   |
