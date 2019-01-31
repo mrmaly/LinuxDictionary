@@ -27,8 +27,8 @@ The line ending sequence in the generated files is OS-dependent.
 
  * The sheet can containt empty rows between non-empty rows. A row will be
    omitted if it has the first cell empty.
- * The script will print warning for each phrase that occurs more than once as
-   well as all definitions associated with that phrase.
+ * The script will print warning for each phrase (case insensitive) that occurs
+   more than once as well as all definitions associated with that phrase.
 
 ### Usage
 

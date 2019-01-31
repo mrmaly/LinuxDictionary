@@ -68,10 +68,11 @@ class Generator(object):
   def find_multiple_defs(self):
     key_to_defs = dict()
     for idx, row in enumerate(self.rows):
-      if row[0] in key_to_defs.keys():
-        key_to_defs[row[0]].append(idx)
+      phrase = row[0].lower()
+      if phrase in key_to_defs.keys():
+        key_to_defs[phrase].append(idx)
       else:
-        key_to_defs[row[0]] = [idx]
+        key_to_defs[phrase] = [idx]
 
     for key, defs_idxs in key_to_defs.items():
       if len(defs_idxs) > 1:
