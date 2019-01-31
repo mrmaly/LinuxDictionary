@@ -11,12 +11,12 @@ The sources of The Linux Dictionary course avaiable on:
 
 Script `generate.py` generates the TSV and XML files from the given XLSX file.
 If no `-o` option has been passed the files will be generated in the CWD.
-The line ending sequence is OS-dependent. If the encoding of the XLSX file is
-not UTF-8 the behaviour is undefined.
+The line ending sequence in the generated files is OS-dependent.
 
 ### Expected spreadsheet schema
 
  * Only the first sheet in the given file will be parsed and coverted.
+ * The file has to be UTF-8 encoded. If it's not the behaviour is undefined.
  * Each row contains the phrase, definition and aliases in the following format:
 
    |   PHRASE   |   DEFINITON   |   [alias1]   |   [alias2]   |   [...]   |
