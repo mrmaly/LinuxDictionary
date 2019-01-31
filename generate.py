@@ -52,7 +52,6 @@ class Generator(object):
       self.meta_detail = data["database_metadata"]["short_description"]
 
 
-
   def get_hash(self):
     hash_utl = hashlib.md5()
     with open(self.path, "rb") as f:
@@ -187,6 +186,7 @@ class Generator(object):
 
 def reciveSignal(signalNumber, frame):
   sys.exit("\n\nInterupted. Exiting gracefully.")
+
 
 def main():
   signal.signal(signal.SIGTERM, reciveSignal)
