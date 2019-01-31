@@ -20,7 +20,7 @@ not UTF-8 the behaviour is undefined.
  * Each row contains the phrase, definition and aliases in the following format:
 
    |   PHRASE   |   DEFINITON   |   [alias1]   |   [alias2]   |   [...]   |
-   | ---------- | ------------- | ------------ | ------------ | --------- |
+   |:----------:|:-------------:|:------------:|:------------:|:---------:|
    | **PHRASE** | **DEFINITON** | **[alias1]** | **[alias2]** | **[...]** |
    | **[...]**  |   **[...]**   |   **[...]**  |   **[...]**  | **[...]** |
 
