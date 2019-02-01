@@ -28,7 +28,11 @@ import os
 import signal
 import sys
 import time
-import xlrd
+
+try:
+  import xlrd
+except:
+  sys.exit("XLRD python3 module is required. Aborting.")
 
 class Generator(object):
   def __init__(self, path, output, metadata_path, simple):
