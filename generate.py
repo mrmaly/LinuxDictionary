@@ -109,7 +109,7 @@ class Generator(object):
       sheet = data_xls.sheet_by_name(sheet_name)
       for row in sheet.get_rows():  # returns a generator
         tmp = [cell.value for cell in row]
-        if tmp[0] == '':  # if there's not phrase
+        if tmp[0] == '':  # if there's no phrase
           continue
         self.sheets[sheet_name].append(list(filter(None, tmp)))
       if not self.simple:
@@ -180,7 +180,7 @@ class Generator(object):
 
     if self.metadata_path is None:
       print("\n===================================")
-      print("Don't forget to change the metadata in the generated xml file!")
+      print("Don't forget to change the metadata in the generated XML file!")
       print("===================================\n")
 
 
