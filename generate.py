@@ -31,12 +31,13 @@ import time
 import xlrd
 
 class Generator(object):
-  def __init__(self, path, output, metadata_path):
+  def __init__(self, path, output, metadata_path, simple):
     self.path = path
     self.output = output
     self.filename = os.path.splitext(os.path.basename(self.path))[0]
     self.indent_level = 0
     self.metadata_path = metadata_path
+    self.simple = simple
 
     self.load_metadata()
 
@@ -48,8 +49,8 @@ class Generator(object):
     else:
       with open(self.metadata_path, "rb") as f:
         data = json.load(f)
-      self.meta_name = data["database_metadata"]["name"]
-      self.meta_detail = data["database_metadata"]["short_description"]
+      self.meta_name = data["name"]
+      self.meta_detail = data["short_description"]
 
 
   def get_hash(self):
@@ -74,48 +75,59 @@ class Generator(object):
 
   def find_multiple_defs(self):
     key_to_defs = dict()
-    for idx, row in enumerate(self.rows):
-      phrase = row[0].lower()
-      if phrase in key_to_defs.keys():
-        key_to_defs[phrase].append(idx)
-      else:
-        key_to_defs[phrase] = [idx]
+    for sheet_name, sheet in self.sheets.items():
+      for idx, row in enumerate(sheet):
+        phrase = row[0].lower()
+        if phrase in key_to_defs.keys():
+          key_to_defs[phrase].append((sheet_name, idx))
+        else:
+          key_to_defs[phrase] = [(sheet_name, idx)]
 
-    for key, defs_idxs in key_to_defs.items():
-      if len(defs_idxs) > 1:
-        print(f"\nWARNING: Multiple definitions of '{key}':", file=sys.stderr)
-        for idx in defs_idxs:
-          print(f"\t- {self.rows[idx][1]}", file=sys.stderr)
-        print("\n")
+      for key, defs_idxs in key_to_defs.items():
+        if len(defs_idxs) > 1:
+          print(f"\nWARNING: Multiple definitions of '{key}':", file=sys.stderr)
+          for sheet_name, idx in defs_idxs:
+            print(f"\t[{sheet_name}]: {self.sheets[sheet_name][idx][1]}", file=sys.stderr)
+          print("\n")
+
+
+  def merge_sheets(self):
+    self.merged_sheets = []
+    for _, rows in self.sheets.items():
+      self.merged_sheets.extend(rows)
 
 
   def read_and_generate(self):
     data_xls = xlrd.open_workbook(self.path)
-    print(f"Reading the first sheet from '{self.path}' file.")
-    sheet = data_xls.sheet_by_index(0)
-    self.rows = []
-    for row in sheet.get_rows():  # returns a generator
-      tmp = [cell.value for cell in row]
-      if tmp[0] == '':  # if there's not phrase
-        continue
-      self.rows.append(list(filter(None, tmp)))  # removes empty cells
+    self.sheets = dict()
+    for sheet_name in data_xls.sheet_names():
+      self.sheets[sheet_name] = []
+      sheet = data_xls.sheet_by_name(sheet_name)
+      for row in sheet.get_rows():  # returns a generator
+        tmp = [cell.value for cell in row]
+        if tmp[0] == '':  # if there's not phrase
+          continue
+        self.sheets[sheet_name].append(list(filter(None, tmp)))
+      if not self.simple:
+        self.generate_tsv(sheet_name, self.sheets[sheet_name])
+        self.generate_xml(sheet_name, self.sheets[sheet_name])
 
     self.find_multiple_defs()
-    self.generate_tsv()
-    self.generate_xml()
+    self.merge_sheets()
+    self.generate_tsv(self.filename, self.merged_sheets)
+    self.generate_xml(self.filename, self.merged_sheets)
 
 
-  def generate_tsv(self):
-    tsv_file = os.path.join(self.output, self.filename) + ".tsv"
+  def generate_tsv(self, name, rows):
+    tsv_file = os.path.join(self.output, name) + ".tsv"
     print(f"Generating the '{tsv_file}' TSV file.")
     with open(tsv_file, "wb") as f:
-      for row in self.rows:
+      for row in rows:
         f.write(str.encode("\t".join(row) + os.linesep))
-    print(f"File '{tsv_file}' has been generated.")
 
 
-  def generate_xml(self):
-    xml_file = os.path.join(self.output, self.filename) + ".xml"
+  def generate_xml(self, name, rows):
+    xml_file = os.path.join(self.output, name) + ".xml"
     print(f"Generating the '{xml_file}' XML file.")
     with open(xml_file, "wb") as f:
       f.write(self.format('<?xml version="1.0" encoding="UTF-8"?>'))
@@ -137,7 +149,7 @@ class Generator(object):
       f.write(self.format('<ENTBYPAGE>10</ENTBYPAGE>'))
       f.write(self.format('<ENTRIES>'))
 
-      for idx, row in enumerate(self.rows):
+      for idx, row in enumerate(rows):
         if idx == 0:
           f.write(self.format('<ENTRY>', '>'))
         else:
@@ -161,8 +173,6 @@ class Generator(object):
       f.write(self.format('</ENTRIES>', '<'))
       f.write(self.format('</INFO>', '<'))
       f.write(self.format('</GLOSSARY>', '<'))
-
-    print(f"File '{xml_file}' has been generated.")
 
     if self.metadata_path is None:
       print("\n===================================")
@@ -201,6 +211,8 @@ def main():
       metavar="INTERVAL", help="watch for file changes (default interval: .5s)")
   parser.add_argument("-m", "--metadata", type=str, metavar="META_FILE_PATH",
       help="metadata JSON file path")
+  parser.add_argument("-s", "--simple", action="store_true", default=False,
+      help="if given, the script will not generate files for each sheet")
   args = parser.parse_args()
 
   if not os.path.isdir(args.output_dir):
@@ -212,7 +224,7 @@ def main():
     else:
       os.makedirs(args.output_dir)
 
-  g = Generator(args.path, args.output_dir, args.metadata)
+  g = Generator(args.path, args.output_dir, args.metadata, args.simple)
   if args.watch != -1.0:
     g.watch(0.5 if args.watch == None else args.watch)
   else:

@@ -15,7 +15,8 @@ The line ending sequence in the generated files is OS-dependent.
 
 ### Expected spreadsheet schema
 
- * Only the first sheet in the given file will be parsed and coverted.
+ * The script will generate files for each sheet in the XLSX file, as well as
+   files containing merged content of all sheets.
  * The file has to be UTF-8 encoded. If it's not the behaviour is undefined.
  * Each non-empty row has to contain a phrase, definition and aliases in the
    following format:
@@ -25,10 +26,10 @@ The line ending sequence in the generated files is OS-dependent.
    | **PHRASE** | **DEFINITON** | **[alias1]** | **[alias2]** | **[...]** |
    | **[...]**  |   **[...]**   |   **[...]**  |   **[...]**  | **[...]** |
 
- * The sheet can containt empty rows between non-empty rows. A row will be
+ * A sheet can containt empty rows between non-empty rows. A row will be
    omitted if it has the first cell empty.
  * The script will print warning for each phrase (case insensitive) that occurs
-   more than once as well as all definitions associated with that phrase.
+   more than once, as well as all definitions associated with that phrase.
 
 ### Usage
 
@@ -58,6 +59,14 @@ To change the interval between checks add a new value (in seconds) after the
   $ python3 generate.py -w 1.337 [-o output_dir] path_to_excel_file.xlsx
 ```
 
+#### The simple mode
+To prevent the script from generating files for each sheet add `-s` flag. Only
+files with merged content will be generated. Useful if you're not going to
+create Memrise levels.
+```bash
+  $ python3 generate.py -s [-o output_dir] path_to_excel_file.xlsx
+```
+
 #### The metadata file
 
 You can specify the metadata JSON file from which the script will read metadata
@@ -69,7 +78,7 @@ file will be filled with placeholders.
 
 The JSON file has to have the following format:
 ```json
-"database_metadata": {
+{
   "name": "<project_name>",
   "short_description": "<description>"
 }
