@@ -26,10 +26,10 @@ The line ending sequence in the generated files is OS-dependent.
    | **PHRASE** | **DEFINITON** | **[alias1]** | **[alias2]** | **[...]** |
    | **[...]**  |   **[...]**   |   **[...]**  |   **[...]**  | **[...]** |
 
- * A sheet can containt empty rows between non-empty rows. A row will be
-   omitted if it has the first cell empty.
- * The script will print warning for each phrase (case insensitive) that occurs
-   more than once, as well as all definitions associated with that phrase.
+ * A sheet can contain empty rows between non-empty rows. A row will be omitted
+   if it has the first cell empty.
+ * The script will print warning for each phrase that occurs more than once
+   (case insensitive), as well as all definitions associated with that phrase.
 
 ### Usage
 
@@ -69,9 +69,8 @@ create Memrise levels.
 
 #### The metadata file
 
-You can specify the metadata JSON file from which the script will read metadata
-via `-m` option. If no metadata file has been given, the meta tags in the XML
-file will be filled with placeholders.
+You can specify a metadata JSON file via `-m` option. If no metadata file has
+been given, the meta tags in the XML file will be filled with placeholders.
 ```bash
   $ python3 generate.py -m ./metadata.json [-o output_dir] path_to_excel_file.xlsx
 ```
