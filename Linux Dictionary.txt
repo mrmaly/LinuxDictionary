@@ -141,7 +141,7 @@ more	a program for listing file content (similar to less)
 most	a program for browsing or paging through a text file
 mono	an ECMA-CLI native code generator
 mktemp	a program for creating a temporary file or directory
-GNU Midnight Commander	a visual shell for Unix-like systems@mc
+GNU Midnight Commander	a visual shell for Unix-like systems	mc
 make	a GNU make utility to maintain groups of programs
 cmake	a cross-platform make utility to maintain groups of programs
 lsusb	a program for listing USB devices
@@ -223,8 +223,8 @@ objdump	a program for disassembling or displaying information from object files
 od	a program for displaying data in various human-readable output formats
 openssl	a software library for applications that secure communications over computer networks
 parted	the GNU partition editor, used for creating and deleting partitions
-pipe	a symbol that tells the shell to send the output of a command to another rather than display this output@|
-tilde	a symbol that is interpreted as an absolute path of the user’s home directory@~
+pipe	a symbol that tells the shell to send the output of a command to another rather than display this output	|
+tilde	a symbol that is interpreted as an absolute path of the user’s home directory	~
 shutdown	a utility for bringing the system down in a secure way
 poweroff	a utlity for sending an ACPI signal which instructs the system to power down
 nasm	an assembler and disassembler for the Intel x86 architecture used to write 16-bit, 32-bit and 64-bit programs
@@ -242,7 +242,7 @@ write	a system call for writing data to the file referred to by the file descrip
 exit	a function for causing normal process termination
 syscall	a function for invoking the system call whose assembly language interface has the specified number
 socket	a function for creating an endpoint for communication returning a file descriptor that refers to that endpoint
-file descriptor	an abstract indicator (handle) used to access a file or other input / output resource, such as a pipe or network socket@fd
+file descriptor	an abstract indicator (handle) used to access a file or other input / output resource, such as a pipe or network socket	fd
 child process	a process created by another process
 compile	to translate a high level code into machine-code
 compiler	a program that converts instructions into machine-code form so that they can be read and executed
