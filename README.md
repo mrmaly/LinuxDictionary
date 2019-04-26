@@ -54,7 +54,7 @@ checked for changes every 0.5 second.
 ```
 
 To change the interval between checks add a new value (in seconds) after the
-`-w` flag (now it's a option though).
+`-w` flag (now it's an option though).
 ```bash
   $ python3 generate.py -w 1.337 [-o output_dir] path_to_excel_file.xlsx
 ```
